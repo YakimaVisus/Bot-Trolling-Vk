@@ -1,6 +1,6 @@
 # Bot-Trolling-Vk
 Простенький ботик для троллинга с интерфейсом #Yakima_Visus
-# Устоновка
+# Установка
 pip install vk_api  
 pip install requests  
 если там еще чото будет в консоли покажут шо еще надо скачать  
