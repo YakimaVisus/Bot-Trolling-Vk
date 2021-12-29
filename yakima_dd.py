@@ -80,7 +80,7 @@ def raid(conv_id, is_to_ls, counter_text):
         counter_text["text"] = "Отправлено: " + str(counter)
 to_ls_checkbox = tkinter.Checkbutton(text = "Обзывалки в беседу", variable = is_to_ls)
 to_ls_checkbox.pack()
-tkinter.Label(text = "Чтобы поменять интервал замените в 62 строке \n time.sleep(ЧИСЛО) \n но нулчше это не трогать хз ", font = "Arial 8").pack()
+tkinter.Label(text = "Чтобы поменять интервал замените в 77 строке \n time.sleep(ЧИСЛО) \n но нулчше это не трогать хз ", font = "Arial 8").pack()
 start_btn = tkinter.Button(text = "Запуск ботика", command = raid_launcher , font = "Arial 10")
 start_btn.pack()
 
